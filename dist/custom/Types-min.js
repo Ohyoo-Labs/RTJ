@@ -1,0 +1,1 @@
+export const Types={number:{name:"number",validate:a=>"number"==typeof a&&!isNaN(a)},array:{name:"array",validate:a=>Array.isArray(a)}};
